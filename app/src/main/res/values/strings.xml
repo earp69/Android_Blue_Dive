@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">BlueDive</string>
+    <string name="title_home">Registrar</string>
+    <string name="title_dashboard">Campañas</string>
+    <string name="title_notifications">Eventos</string>
+    <string name="hint_et_act_log_user">Email</string>
+    <string name="hint_et_act_log_pass">Contraseña</string>
+    <string name="btn_act_log_acceder">Acceder</string>
+    <string name="tv_act_log_register">Quiero registrarme</string>
+    <string name="tv_act_log_invitado">Accede como invitado</string>
+    <string name="msj_no_hay_datos">Debe escribir el email y la contraseña.</string>
+    <string name="msj_no_accede">No estas registrado</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="user_fragment_nom">Hola %1$s</string>
+    <string name="tv_frag_user_r_view">Estas son tus campañas y eventos</string>
+    <string name="hint_et_nom_camp">Introduce nombre campaña</string>
+    <string name="btn_buscar_camp">Buscar Campaña</string>
+    <string name="et_usuario">Usuario</string>
+    <string name="et_contrasena">Contraseña: más de 5 caracteres</string>
+    <string name="et_contrasena_comprobar">Repite la contraseña</string>
+    <string name="et_nombre_completo">Nombre y apellido</string>
+    <string name="et_fecha_nac">Fecha nacimiento: dd/mm/aaaa</string>
+    <string name="et_telefono">Telefono</string>
+    <string name="et_email">email ej:. aaa@ejemplo.es</string>
+    <string name="cancelar_reg">Cancelar</string>
+    <string name="aceptar_reg">Aceptar</string>
+    <string name="msj_registrado">Registro correcto</string>
+    <string name="msj_no_registrado">El email ya esta registrado</string>
+    <string name="msj_regiter">Ya esta registrado. Desea desconectarse?</string>
+    <string name="fd_btn_desconectar">Desconectar</string>
+    <string name="fd_btn_cancelar">Cancelar</string>
+    <string name="title_dialog">Filtrar busqueda por lugar</string>
+    <string name="btn_aceptar">ACEPTAR</string>
+    <string name="btn_si">SI</string>
+    <string name="btn_no">NO</string>
+    <string name="tv_aceptar_reg">TE DESEAS REGISTRAR EN ESTE EVENTO</string>
+    <string name="btn_dialog_cancelar">CANCELAR</string>
+    <string name="btn_add_evento">AÑADE EVENTO</string>
+    <string name="hello_blank_fragment">hello</string>
+    <string name="btn_anadir_campania">Añadir Campaña</string>
+    <string name="hint_frag_camp_add_nom">Nombre de la Campaña</string>
+    <string name="hint_frag_camp_add_obj">Objetivo</string>
+    <string name="hint_frag_camp_add_fecha">Fecha</string>
+    <string name="hint_frag_camp_add_lugar">Lugar</string>
+    <string name="hint_frag_camp_add_email">e-mail</string>
+    <string name="hint_frag_camp_add_pass">Contraseña</string>
+    <string name="tt_frag_camp_add_imagen">Pulse para añadir imagen</string>
+    <string name="btn_frag_camp_add_cancelar">Cancelar</string>
+    <string name="btn_frag_camp_add_aceptar">Aceptar</string>
+    <string name="tv_frag_camp_add_imagen">Pulsa para añadir imagen</string>
+    <string name="title">Complete la accion usando</string>
+    <string name="hint_frag_ev_add_nom">Nombre de la Evento</string>
+
+
+    <string name="msj_no_logado">Para añadir campañas tiene que registrarse</string>
+    <string name="msj_carga_ok">Campaña almacenada</string>
+    <string name="msj_carga_ko">Tiene que introducir todos los datos</string>
+    <string name="msj_carga_imagen_ko">Debe insertar una imagen</string>
+
+    <string name="msj_no_logado2">Para añadir eventos tiene que registrarse</string>
+    <string name="btn_frag_camp_add_volver">VOLVER</string>
+    <string name="hint_et_dat_dialog_lay_camp">Escriba el lugar</string>
+    <string name="msj_error_lugar">El lugar no se encuentra</string>
+    <string name="msj_error_data">Debe escribir un lugar</string>
+    <string name="btn_buscar_env">Buscar Evento</string>
+    <string name="buscar_env">Intorduce el Lugar</string>
+    <string name="btn_info_apnt">APUNTATE</string>
+    <string name="title_dialog2">Para apuntarte tienes que estar registrado\n¿Deseas Registrarte?</string>
+    <string name="hint_et_nom_ev">Introduce lugar evento</string>
+    <string name="apuntarse">Te has apuntado al evento: %1$s</string>
+
+    <string name="msj_campo_vacio">Todos los campos deben completrse</string>
+    <string name="msj_email_no_correcto">El email no es corecto</string>
+    <string name="msj_contrsena_comp">Las contraseñas deben ser iguales y contener mas de 6 caracteres</string>
+    <string name="msj_fechanac_comp">"Fijate en el  formato "</string>
+    <string name="msj_tel_comp">telefono incorrecto</string>
+</resources>

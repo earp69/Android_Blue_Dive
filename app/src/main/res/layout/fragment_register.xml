@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterFragment">
+
+    <ImageView
+        android:id="@+id/iv_reg_icono"
+        android:layout_width="@dimen/mrg_lados_iv_reg"
+        android:layout_height="@dimen/mrg_lados_iv_reg"
+        android:layout_marginTop="@dimen/mrg_top_iv_reg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

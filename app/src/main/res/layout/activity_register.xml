@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_reg_icono"
+        android:layout_width="@dimen/mrg_lados_iv_reg"
+        android:layout_height="@dimen/mrg_lados_iv_reg"
+        android:layout_marginTop="@dimen/mrg_top_iv_reg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono2" />
+
+    <TextView
+        android:id="@+id/txt_reg_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iv_reg_icono"
+        android:text="REGISTRO"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/mrg_top_txt_reg"
+        android:textSize="@dimen/tam_texto_reg"
+        android:textStyle="bold"
+        android:textColor="@color/clr_titulo"
+        />
+
+    <LinearLayout
+        android:id="@+id/reg_ll_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/llmargen_top"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_reg_titulo"
+        android:padding="@dimen/margen_ll">
+
+        <EditText
+            android:id="@+id/reg_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_componentes_reg"
+            android:hint="@string/et_email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/color_hint_reg" />
+
+        <EditText
+            android:id="@+id/reg_contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_componentes_reg"
+            android:hint="@string/et_contrasena"
+            android:inputType="textPassword"
+            android:textColorHint="@color/color_hint_reg" />
+
+        <EditText
+            android:id="@+id/reg_contrasena_comp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_componentes_reg"
+            android:hint="@string/et_contrasena_comprobar"
+            android:inputType="textPassword"
+            android:textColorHint="@color/color_hint_reg" />
+
+        <EditText
+            android:id="@+id/reg_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_componentes_reg"
+            android:hint="@string/et_nombre_completo"
+            android:textColorHint="@color/color_hint_reg" />
+
+        <EditText
+            android:id="@+id/reg_fecha_nac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_componentes_reg"
+            android:ems="10"
+            android:hint="@string/et_fecha_nac"
+            android:inputType="date"
+            android:textColorHint="@color/color_hint_reg" />
+
+        <EditText
+            android:id="@+id/reg_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_componentes_reg"
+            android:hint="@string/et_telefono"
+            android:inputType="phone"
+            android:textColorHint="@color/color_hint_reg" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reg_ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/llmargen_top"
+        android:layout_marginBottom="@dimen/llmargen_bot"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancelar_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar_reg"
+            android:backgroundTint="@color/blue"
+            android:layout_marginLeft="@dimen/margen_right"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/margen_right2"
+            />
+
+        <Button
+            android:id="@+id/btn_aceptar_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:text="@string/aceptar_reg"
+            android:layout_marginRight="@dimen/margen_right"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

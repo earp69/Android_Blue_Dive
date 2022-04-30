@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_campaigns">
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.dam.bluedive.ui.register.RegisterFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_register" >
+<!--        <action
+            android:id="@+id/nav_dash_to_newFrag"
+            app:destination="@id/fr_user_fragment" />
+-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_campaigns"
+        android:name="com.dam.bluedive.ui.campaigns.CampaignsFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_campaigns">
+<!--        <action
+            android:id="@+id/nav_dash_to_newFrag"
+            app:destination="@id/new_fragment" />
+-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="com.dam.bluedive.ui.events.EventsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_events" />
+</navigation>

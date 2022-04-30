@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_dialog_lay_camp"
+        android:inputType="text"
+        android:hint="@string/hint_et_dat_dialog_lay_camp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margen_int"
+        android:layout_marginRight="@dimen/margen_int"/>
+
+</LinearLayout>
